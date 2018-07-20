@@ -64,5 +64,7 @@ public class User {
 		return "User [id=" + id + ", name=" + name + ", email=" + email + ", lastLogin=" + lastLogin + "]";
 	}
 	
+	//hello from the other side
+	
 }
 
