@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="stlac" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="STLAC" textFill="#dd1818">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <ListView fx:id="usersListView" layoutX="18.0" layoutY="128.0" prefHeight="80.0" prefWidth="561.0" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="18.0" />
+      <TextField fx:id="emailTextField" layoutX="375.0" layoutY="20.0" />
+      <TextField fx:id="loginTextField" layoutX="172.0" layoutY="20.0" />
+      <Button fx:id="pridajButton" layoutX="540.0" layoutY="20.0" mnemonicParsing="false" text="Pridaj" />
+      <Label layoutX="329.0" layoutY="24.0" prefHeight="17.0" prefWidth="37.0" text="Emial" />
+      <Label layoutX="134.0" layoutY="24.0" text="Login" />
+      <TableView fx:id="usersTableView" layoutX="18.0" layoutY="208.0" prefHeight="165.0" prefWidth="561.0" />
+      <Label fx:id="selectedUserLabel" layoutX="38.0" layoutY="80.0" text="Nikto">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
